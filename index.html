@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Hut Landing</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <section class="why-pizza-hut">
+        <div class="why-container">
+          <h2 class="why-title">Why Choose Pizza Hut?</h2>
+          <div class="why-cards">
+            <!-- Card 1 -->
+            <div class="why-card">
+              <i class="fas fa-pizza-slice"></i>
+              <h3>Premium Quality</h3>
+              <p>Only the freshest ingredients and hand-tossed dough made daily.</p>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="why-card">
+              <i class="fas fa-truck"></i>
+              <h3>Lightning Fast Delivery</h3>
+              <p>Get your pizza hot and fresh — at your door in under 30 minutes.</p>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="why-card">
+              <i class="fas fa-star"></i>
+              <h3>Customer Satisfaction</h3>
+              <p>Rated #1 in taste and service by pizza lovers worldwide.</p>
+            </div>
+      
+            <!-- Card 4 -->
+            <div class="why-card">
+              <i class="fas fa-tags"></i>
+              <h3>Great Deals</h3>
+              <p>Enjoy exclusive discounts and combo offers every week.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- Font Awesome CDN for Icons -->
+      <script src="https://kit.fontawesome.com/a2e0e6e6e7.js" crossorigin="anonymous"></script>
+      
+  <header>
+    <div class="nav-container">
+      <div class="pizzahut.png">Pizza Hut</div>
+      <nav id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Deals</a>
+        <a href="#">Locations</a>
+        <a href="#">Contact</a>
+        <button class="cta-btn">Order Now</button>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Fresh. Hot. Delivered.</h1>
+      <p>Satisfy your cravings with the ultimate Pizza Hut experience.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn primary-btn">Order Now</a>
+        <a href="#" class="btn secondary-btn">View Menu</a>
+      </div>
+    </div>
+  </section>
+  <section class="menu-section">
+    <div class="menu-container">
+      <h2 class="menu-title">Featured Pizzas</h2>
+      <div class="pizza-grid">
+        <!-- Pizza Card 1 -->
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1601924928476-3ccde5e3b9d6?auto=format&fit=crop&w=800&q=80" alt="Pepperoni Pizza">
+          <h3>Pepperoni Feast</h3>
+          <p>Loaded with double pepperoni and extra cheese.</p>
+          <div class="pizza-footer">
+            <span class="price">$12.99</span>
+            <button class="order-btn">Add to Cart</button>
+          </div>
+        </div>
+  
+        <!-- Pizza Card 2 -->
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be1d?auto=format&fit=crop&w=800&q=80" alt="Veggie Pizza">
+          <h3>Garden Delight</h3>
+          <p>Fresh veggies on a golden crust with melted mozzarella.</p>
+          <div class="pizza-footer">
+            <span class="price">$11.49</span>
+            <button class="order-btn">Add to Cart</button>
+          </div>
+        </div>
+  
+        <!-- Pizza Card 3 -->
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1614714268762-f7da5b5ed20d?auto=format&fit=crop&w=800&q=80" alt="Meat Lover's Pizza">
+          <h3>Meat Lover’s</h3>
+          <p>A carnivore’s dream with sausage, beef, bacon & ham.</p>
+          <div class="pizza-footer">
+            <span class="price">$13.99</span>
+            <button class="order-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="offers-section">
+    <div class="offers-container">
+      <h2 class="offers-title">Special Offers & Deals</h2>
+      <div class="offers-scroll">
+        <!-- Offer Card 1 -->
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="BOGO Deal">
+          <div class="offer-info">
+            <span class="badge">BOGO</span>
+            <h3>Buy 1 Get 1 Free</h3>
+            <p>Order any large pizza and get another one absolutely free!</p>
+            <button class="offer-btn">Claim Deal</button>
+          </div>
+        </div>
+  
+        <!-- Offer Card 2 -->
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1628840042765-91b2f2a6bd85?auto=format&fit=crop&w=800&q=80" alt="Weekend Deal">
+          <div class="offer-info">
+            <span class="badge">30% OFF</span>
+            <h3>Weekend Special</h3>
+            <p>Get 30% off all orders above $25 every weekend.</p>
+            <button class="offer-btn">Grab Now</button>
+          </div>
+        </div>
+  
+        <!-- Offer Card 3 -->
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1617196035495-bfd2d75c05f3?auto=format&fit=crop&w=800&q=80" alt="Family Deal">
+          <div class="offer-info">
+            <span class="badge">Combo</span>
+            <h3>Family Feast</h3>
+            <p>2 large pizzas, garlic bread, and drinks for just $29.99.</p>
+            <button class="offer-btn">Order Combo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="why-section">
+    <div class="why-container">
+      <h2 class="why-title">Why Choose Pizza Hut?</h2>
+      <div class="why-grid">
+        <!-- Feature 1 -->
+        <div class="why-card">
+          <i class="fas fa-pizza-slice"></i>
+          <h3>Fresh Ingredients</h3>
+          <p>We use only the freshest veggies, meats, and cheeses in every pizza we craft.</p>
+        </div>
+  
+        <!-- Feature 2 -->
+        <div class="why-card">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Fast Delivery</h3>
+          <p>Hot and delicious — delivered to your door in 30 minutes or less, guaranteed.</p>
+        </div>
+  
+        <!-- Feature 3 -->
+        <div class="why-card">
+          <i class="fas fa-star"></i>
+          <h3>Top-Rated Taste</h3>
+          <p>Thousands of 5-star reviews from happy pizza lovers across the globe.</p>
+        </div>
+  
+        <!-- Feature 4 -->
+        <div class="why-card">
+          <i class="fas fa-tags"></i>
+          <h3>Irresistible Deals</h3>
+          <p>Get amazing value every day with our combo offers, discounts, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a2e0e6e6e7.js" crossorigin="anonymous"></script>
+  
+  
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+  <section class="find-hut-section">
+    <div class="find-hut-container">
+      <h2 class="find-hut-title">Find Your Nearest Hut</h2>
+      <p class="find-hut-text">Enter your city or ZIP code to discover a Pizza Hut near you.</p>
+      <form class="find-hut-form">
+        <input
+          type="text"
+          placeholder="Enter city or ZIP code"
+          class="find-hut-input"
+          required 
+        />
+        <button type="submit" class="find-hut-button">Search</button>
+      </form>
+    </div>
+  </section>
+  <section class="app-promo-section">
+    <div class="app-promo-container">
+      <div class="app-text">
+        <h2>Get the Pizza Hut App</h2>
+        <p>Order your favorites faster, get exclusive deals, and track your pizza in real-time.</p>
+        <div class="store-buttons">
+          <a href="#" class="store-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+          </a>
+          <a href="#" class="store-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Download_on_the_App_Store_Badge.svg" alt="App Store">
+          </a>
+        </div>
+      </div>
+      <div class="app-image">
+        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=600&q=80" alt="Pizza Hut App Screenshot">
+      </div>
+    </div>
+  </section>
+  <section class="reviews-section">
+    <div class="reviews-container">
+      <h2 class="reviews-title">What Our Customers Say</h2>
+      <div class="review-cards">
+  
+        <!-- Review 1 -->
+        <div class="review-card">
+          <p class="review-text">“Absolutely love the crust and the cheesy goodness! Delivery was fast and the pizza was piping hot.”</p>
+          <div class="reviewer">— Sarah L.</div>
+        </div>
+  
+        <!-- Review 2 -->
+        <div class="review-card">
+          <p class="review-text">“The app is super easy to use and the deals are amazing. My go-to for pizza night!”</p>
+          <div class="reviewer">— James W.</div>
+        </div>
+  
+        <!-- Review 3 -->
+        <div class="review-card">
+          <p class="review-text">“Best pizza in town. The flavors are on point and the quality is unbeatable!”</p>
+          <div class="reviewer">— Priya K.</div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <h2 class="newsletter-title">Stay in the Slice Loop 🍕</h2>
+      <p class="newsletter-text">Sign up to get exclusive deals, delicious updates, and more delivered straight to your inbox.</p>
+      <form class="newsletter-form">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="newsletter-input"
+          required
+        />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+</body>
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>Pizza Hut</h3>
+        <p>Serving deliciousness since 1958 🍕</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Pizza Hut. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Font Awesome for Social Icons -->
+  <script src="https://kit.fontawesome.com/a2e0e6e6e7.js" crossorigin="anonymous"></script>
+  
+</html>
